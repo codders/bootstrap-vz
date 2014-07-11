@@ -71,7 +71,6 @@ def resolve_tasks(taskset, manifest):
 
 	                boot.BlackListModules,
 	                boot.DisableGetTTYs,
-	                tasks.network.EnableDHCPCDDNS,
 	                initd.AddExpandRoot,
 	                initd.RemoveHWClock,
 	                tasks.initd.AddEC2InitScripts,
